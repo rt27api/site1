@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stile1.css">
+</head>
+<body>
+
+    <header class="title">
+        <h1>LE SPECIALITA DEL 68</h1>
+        
+        <h5>e tutto(a suo tempo) quello che c'è da sapere</h5>
+        <div class="gradient"></div>
+    </header>
+    <main>
+        
+        <div class="specialità">
+            
+            <span class="spec">
+                <div class="card"></div>
+                <div class="specimg">
+                    
+                    <div class="backcard">
+                        <section class="start">
+                            <h1>ALLEVATORE</h1>
+                            <h3> specialità nel mantenimento <br> di animali da allevamento</h3>
+                            <button onclick="openinfo(0)" class="btn">INFO</button>
+                        </section>
+
+                            <section class="info" id="info">
+                                
+                                    <li> 
+                                        <button class="closebutton" onclick="closeinfo(0)">x</button>  
+                                        <h2>Allevatore</h2>                                 
+                                        <h4>questa specialità è ottima <br> per coloro che desiderano imparare o approfondire 
+                                            argomenti <br> riguardanti l'allevamento e la sua economia.
+                                        </h4>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <strong> prima di iniziare è importante assicurarsi di: </strong><br>
+                                            -avere la possibilità di incontrare animali da allevamento <br>
+                                            -conoscere le basi dell'economia(non necessariamente agraria) <br>
+                                        </p>
+                                    </li>
+                                    <li> 
+                                            <nav>
+                                                <h3>per maggiori informazioni e consigli, visitate<a href="https://avventura.agesci.it/wp-content/uploads/sites/17/2016/03/ALLEVATORE.pdf">questo link</a></h3>
+                                                <br>
+                                                <br>
+                                                
+                                            </nav>
+                                            
+                                    </li>
+                                    <li>
+                                        
+                                         <h2>completata da: </h2>
+                                         
+                                         <input type="text" class="name" id="input1" placeholder="completa con nome">
+                                         <button class="namebutton" id="namebutton" onclick="setName()" >AGGIUNGI</button>
+                                        
+                                        <section class="namecontent" id="display1"></section>
+                                    </li>
+                                
+                                
+   
+                            </section>
+                        
+                    </div>
+                    <img src="img/allevatore.jpg" alt="Allevatore" id="allevatore"> 
+                </div>  
+            </span>
+
+            <span class="spec">
+                <div class="card"></div>
+                <div class="specimg">
+
+                    <div class="backcard">
+                        <h1>ALPINISTA</h1>
+                        <h3>specialità nei campi<br>di alpinismo puro e scalata </h3>
+                        <button class="btn" onclick="openinfo(1)">INFO</button>
+                        <section class="info" id="info2">
+                             
+                            
+                                <li>
+                                    <button class="closebutton" onclick="closeinfo(1)">x</button> 
+                                    <h2>ALPINISTA</h2>
+                                    <br>
+                                    <h4>Specialità perfetta per tutti coloro che sono appassionati <br> di montagna 
+                                        o scalata.
+                                    </h4>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Prima di Iniziare assicurarsi di:</strong> <br>
+                                        -Avere la possibilità di andare in un'ambiente montano <br>
+                                        -Avere una minima consoscenza dell'attrezzatura da alpinismo <br>
+                                        <strong>Non è necessario essere fisicamente allenati</strong>
+                                    </p>
+                                </li>
+                                <li>
+                                    <nav>
+                                    <h3>
+                                        per maggiori informazioni e consigli, visitate <br><a href="https://avventura.agesci.it/wp-content/uploads/sites/17/2018/11/Alpinista.pdf">Questo Link</a>
+                                    </h3>
+                                    <br>
+                                    
+                                    </nav>
+                                </li>
+                                <li>
+                                    
+                                    <h2>completata da: </h2>
+                                    
+                                    <input type="text" class="name" id="input2" placeholder="completa con nome">
+                                    <button class="namebutton" id="namebutton" onclick="setName()" >AGGIUNGI</button>
+                                   
+                                   <section class="namecontent" id="display2"></section>
+                                </li>
+                            
+
+                                
+                                
+                             
+                        </section> 
+                    </div>
+ 
+
+                    <img src="img/alpinista.jpg" alt="Allevatore" id="alpinista">
+                    </div>
+             </span>  
+             <span class="spec">
+                <div class="card"></div>
+                <div class="specimg">
+                    <div class="backcard">
+                        <h2>AMICO DEGLI <br> ANIMALI</h2>
+                        <h3>Specialità nella <br>conoscenza della fauna</h3>
+                        <br>
+                        <button onclick="openinfo(2)" class="btn">INFO</button>
+                        <section class="info" id="info3">
+                            <li>
+                                <button class="closebutton" onclick="closeinfo(2)">x</button>  
+                                <h2>AMICO DEGLI ANIMALI</h2>
+                                <h4>Specialità consigliata a tutti coloro <br> appassionati al mondo animale</h4>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Prima di iniziare assicurarsi di: <br></strong>
+                                    -Non avere allergie se si vuole lavorare con animali domestici <br>
+                                    -Non avere fobie eccessive nei confronti di alcuni animali
+                                </p>
+                            </li>
+                            <li>
+                                <nav>
+                                    <h3>
+                                        per maggiori informazioni e consigli, visitate <br><a href="https://avventura.agesci.it/wp-content/uploads/sites/17/2019/01/Amico-degli-animali.pdf">Questo Link</a>
+                                    </h3>
+                                    <br>
+                                    
+                                    </nav>
+                            </li>
+                            <li>
+                                <h2>completata da: </h2>
+                                    
+                                <input type="text" class="name" id="input2" placeholder="completa con nome">
+                                <button class="namebutton" id="namebutton" onclick="setName()" >AGGIUNGI</button>
+                               
+                               <section class="namecontent" id="display2"></section>
+                            </li>    
+                        </section>
+                    </div>
+                    
+                    <img src="img/amico animali.jpg" alt="Allevatore">  
+                </div>
+             </span> 
+             <span class="spec">
+                <div class="card"></div>
+                <div class="specimg">
+                    <div class="backcard">
+                        <h1>AMICO DEL <br> QUARTIERE</h1>
+                        <h4>Specialità basata sulla<br>conoscenza di un quartiere</h4>
+                        <button class="btn" onclick="openinfo(3)">INFO</button>
+                        <br>
+                        <section class="info" id="info3">
+                            <li>
+                                <button class="closebutton" onclick="closeinfo(3)">x</button>  
+                                <h2>AMICO DEL QUARTIERE</h2>
+                                <h4>Per colui che volesse approfondire la vita di quartiere</h4>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Prima di iniziare assicurarsi di: <br></strong>
+                                    -Vivere a tutti gli effetti in un quartiere <br>
+                                    -Conoscere la propria città 
+                                </p>
+                            </li>
+                            <li>
+                                <nav>
+                                    <h3>
+                                        per maggiori informazioni e consigli, visitate <br><a href="error.html">Questo Link</a>
+                                    </h3>
+                                    <br>
+                                    
+                                </nav>
+                            </li>
+                            <li>
+                                <h2>completata da: </h2>
+                                    
+                                <input type="text" class="name" id="input2" placeholder="completa con nome">
+                                <button class="namebutton" id="namebutton" onclick="setName()" >AGGIUNGI</button>
+                               
+                               <section class="namecontent" id="display2"></section>
+                            </li>  
+                        </section>
+                    </div>
+
+                    <img src="img/amico quartiere.jpg" alt="Allevatore">
+                </div>
+             </span>
+             <span class="spec">
+                <div class="card"></div>
+                <div class="specimg">
+                    <div class="backcard">
+                        <h1>ARTIGIANO</h1>
+                        <h4>Specialità basata sul  <br> lavoro manuale di artigianato</h4>
+                        <button class="btn" onclick="openinfo(4)">INFO</button>
+                        <br>
+                        <section class="info" id="info3">
+                            <li>
+                                <button class="closebutton" onclick="closeinfo(4)">x</button>  
+                                <h2>ARTIGIANO</h2>
+                                <h4>Per coloro che desiderano lavorare sulle proprie capacità <br> creative e artigianali</h4>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Prima di iniziare assicurarsi di:</strong> <br>
+                                    -Non avere allergie a materiali chimici da lavoro(colla) <br>
+                                    -Essere in grado di recuperare semplici strumenti per l'artigianato <br>
+                                    <strong>Consigliato:</strong>  Maestro di specialità.
+                                </p>
+                            </li>
+                            <li>
+                                <nav>
+                                    <h3>
+                                        per maggiori informazioni e consigli, visitate <br><a href="https://avventura.agesci.it/wp-content/uploads/sites/17/2018/11/Artigiano.pdf">Questo Link</a>
+                                    </h3>
+                                    <br>
+                                    
+                                </nav>
+                            </li>
+                            <li>
+                                <h2>completata da: </h2>
+                                    
+                                <input type="text" class="name" id="input2" placeholder="completa con nome">
+                                <button class="namebutton" id="namebutton" onclick="setName()" >AGGIUNGI</button>
+                               
+                               <section class="namecontent" id="display2"></section>
+                            </li>  
+                        </section>
+                    </div>
+                    <img src="img/artigiano.jpg" alt="Allevatore">
+                </div>
+             </span>  
+             <span class="spec">
+                <div class="card"></div>
+                <div class="specimg">
+                    <div class="backcard">
+                        <h1>archeologo</h1>
+                        <h4>Specialità basata sullo studio<br>e ricerca di reperti</h4>
+                        <button class="btn" onclick="openinfo(5)">INFO</button>
+                        <br>
+                        <section class="info" id="info3">
+                            <li>
+                                <button class="closebutton" onclick="closeinfo(5)">x</button>  
+                                <h2>ARCHEOLOGO</h2>
+                                <h4>Per tutti coloro che desiderano fare un tuffo nel passato.</h4>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Prima di iniziare assicurarsi di:</strong> <br>
+                                    -Avere accesso ad'una attrezzatura da archeologo o da scavo <br>
+                                    -Non stare compiendo azioni illegali tramite eventuali scavi
+
+                                </p>
+                            </li>
+                            <li>
+                                <nav>
+                                    <h3>
+                                        per maggiori informazioni e consigli, visitate <br><a href="https://avventura.agesci.it/wp-content/uploads/sites/17/2016/05/Archeologo.pdf">Questo Link</a>
+                                    </h3>
+                                    <br>
+                                    
+                                </nav>
+                            </li>
+                            <li>
+                                <h2>completata da: </h2>
+                                    
+                                <input type="text" class="name" id="input2" placeholder="completa con nome">
+                                <button class="namebutton" id="namebutton" onclick="setName()" >AGGIUNGI</button>
+                               
+                               <section class="namecontent" id="display2"></section>
+                            </li>  
+                        </section>
+                    </div>
+                    <img src="img/archeologo.jpg" alt="Allevatore">
+                    
+                </div>
+             </span> 
+        
+
+
+
+        </div>
+        
+    </main>
+    <script>
+ 
+
+
+
+       
+
+        var open = document.getElementsByClassName("info");
+        function openinfo(num){
+            for (let i = num; i < open.length; i++) {
+                open[num].classList.add("openinfo");
+                
+            }
+
+        }
+        function closeinfo(num){
+            for (let i = num; i < open.length; i++) {
+                open[num].classList.remove("openinfo");
+                
+            }
+
+        }
+       
+
+
+        
+ 
+
+    </script>
+    
+</body>
+</html>

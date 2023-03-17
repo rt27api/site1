@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile2.css">
+    <title>Error</title>
+</head>
+<body>
+    <header>
+    ERROR 404 <br>
+    PAGE NOT FOUND 
+</header>
+<button onclick="sound('')" id="btn"></button>
+<div class="troll">
+    <img src="/img/Screenshot (31).png" alt="sui" id="sui">
+</div>
+<script>
+    var btn = document.getElementById("btn");
+    var claudio = document.getElementById("sui");
+    claudio.classList.add("trotate");
+    function sound() {
+        let audio = new Audio('media/sounds/jixaw-metal-pipe-falling-sound.mp3');
+        audio.loop = false;
+        audio.play();
+    }
+    btn.addEventListener("click", function(){
+        Event.loop = true;
+        
+        claudio.classList.add("rotate");
+        claudio.classList.remove("trotate");
+        
+    });
+
+</script>
+    
+</body>
+</html>
